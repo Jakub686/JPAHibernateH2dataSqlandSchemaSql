@@ -19,9 +19,14 @@ public class Start {
     //sposob dodawania danych
     @EventListener(ApplicationReadyEvent.class)
     public void runExample(){
+
+          //sposob dodawania danych
         Person person = new Person("A","b",32);
         personRepository.save(person);
 
+
+
     }
+
 
 }
