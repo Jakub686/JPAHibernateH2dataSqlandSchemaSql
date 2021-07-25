@@ -12,7 +12,7 @@ public class DemoApplication {
 
 		PersonRepository personRepository = configurableApplicationContext.getBean(PersonRepository.class);
 
-
+		//dodawnie danych
 		Person person = new Person("Crhis", "Anderson", 32);
 		personRepository.save(person);
 	}
