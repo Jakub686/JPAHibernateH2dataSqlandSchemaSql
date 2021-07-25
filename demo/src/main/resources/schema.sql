@@ -5,6 +5,4 @@
       AGE INTEGER NOT NULL,
       PRIMARY KEY (ID)
 
-
-
   );
