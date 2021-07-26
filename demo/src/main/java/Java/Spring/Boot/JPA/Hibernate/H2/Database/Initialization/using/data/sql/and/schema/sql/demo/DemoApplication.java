@@ -15,6 +15,12 @@ public class DemoApplication {
 		//dodawnie danych
 		Person person = new Person("Crhis", "Anderson", 32);
 		personRepository.save(person);
+
+		;
+
+
+
+
 	}
 
 }

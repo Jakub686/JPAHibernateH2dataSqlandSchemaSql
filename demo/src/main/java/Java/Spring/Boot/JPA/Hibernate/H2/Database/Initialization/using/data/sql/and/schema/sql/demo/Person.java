@@ -4,7 +4,7 @@ package Java.Spring.Boot.JPA.Hibernate.H2.Database.Initialization.using.data.sql
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Person")
+@Table(name = "NewTable")
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

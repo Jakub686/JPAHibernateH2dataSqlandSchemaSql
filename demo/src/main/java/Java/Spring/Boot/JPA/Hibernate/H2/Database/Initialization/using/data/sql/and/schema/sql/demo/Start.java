@@ -21,8 +21,18 @@ public class Start {
     public void runExample(){
 
           //sposob dodawania danych
-        Person person = new Person("A","b",32);
-        personRepository.save(person);
+        Person person1 = new Person("A","a",32);
+        personRepository.save(person1);
+
+        Person person2 = new Person("B","b",33);
+        personRepository.save(person2);
+
+        Person person3 = new Person("V","v",34);
+        personRepository.save(person3);
+
+
+        //personRepository.deleteAllById(5L);
+
 
 
 
